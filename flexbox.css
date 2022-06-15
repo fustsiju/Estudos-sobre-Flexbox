@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row; /* row-reverse, column e column-rever*/ /* Qual vai ser a direção do eixo principal*/
+    justify-content: center; /*flex-start, flex-end, center, space-between, space-around e space-evenly*/ /* Alinhar os elementos do eixo principal */
+    align-items: center; /*flex-start, flex-end, stretch, baseline etc*/ /*Alinhar os elementos do eixo perpendicular*/
+    flex-wrap: nowrap; /* nowrap e wrap*/ /*Decidir se os elementos irão para a linha de baixo quando chegarem no final ou ficarão espremidos*/
+    flex-flow: row wrap; /* row wrap, row-reverse nowrap, column wrap-reverse e column wrap*/ /*Para identificar o flex-direction e o flex-wrap de uma vez só*/
+    align-content: flex-start; /*flex-end, center, space-between, space-around e space-evenly*/ /*Para quando existe o flex-wrap e queremos alinhar as linhas no nosso eixo perpendicular*/
+    
+    gap:20px; /* row-gap, gap e column-gap*/ /*Para fixar algum tamanho no espaço entre os elementos, tanto linhas ou colunas*/
+    height:500px;
+  }
+  .div1{
+    width:50px;
+    height:50px;
+    background: red;
+    padding:10px;
+    border-radius: 10px;
+  }
+  .div2{
+    width:50px;
+    height:50px;
+    background: green;
+    padding:10px;
+    border-radius: 10px;
+  }
+  .div3{
+    width:50px;
+    height:50px;
+    background: blue;
+    padding:10px;
+    border-radius: 10px;
+  }
