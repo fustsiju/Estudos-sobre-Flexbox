@@ -6,7 +6,6 @@
     flex-wrap: nowrap; /* nowrap e wrap*/ /*Decidir se os elementos irão para a linha de baixo quando chegarem no final ou ficarão espremidos*/
     flex-flow: row wrap; /* row wrap, row-reverse nowrap, column wrap-reverse e column wrap*/ /*Para identificar o flex-direction e o flex-wrap de uma vez só*/
     align-content: flex-start; /*flex-end, center, space-between, space-around e space-evenly*/ /*Para quando existe o flex-wrap e queremos alinhar as linhas no nosso eixo perpendicular*/
-    
     gap:20px; /* row-gap, gap e column-gap*/ /*Para fixar algum tamanho no espaço entre os elementos, tanto linhas ou colunas*/
     height:500px;
   }
